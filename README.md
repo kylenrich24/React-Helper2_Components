@@ -129,3 +129,10 @@ const ApprovalCard = (props) => {
   );
 };
 ```
+
+
+<br>
+<br>
+
+
+<h2>CLass-Based Component</h3>
