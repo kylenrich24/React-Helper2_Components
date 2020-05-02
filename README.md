@@ -129,5 +129,13 @@ const ApprovalCard = (props) => {
   );
 };
 ```
+<br>
+<h3>Default Props</h3>
+<br>
 
+```jsx
+App.defaultProps = {
+ message: "loading..."
+}
+```
 
