@@ -1,4 +1,4 @@
-# 🌀 React-Helper2_Componenents 🌀
+# 🌀 React-Helper2_Functional_Componenents 🌀
 
 <img src="https://sunscrapers.com/blog/wp-content/uploads/2018/11/1__DOHv30w-0eI-Ysz5U47Yg.png" height=500 width=900>
 
@@ -139,22 +139,4 @@ App.defaultProps = {
 }
 ```
 
-<br>
-<h2>Ref System</h2>
-<br>
 
-Getting a DOM element in React
-
-```jsx
- constructor(props) {                       // we create the ref in the constructor
-    super(props);
-
-    this.imageRef = React.createRef();
-  }
- 
- render() {
-  return (
-   <img ref={this.imageRef} />             // we pass the createf ref to <img />; we get the <img />
-  )
- }
-```
